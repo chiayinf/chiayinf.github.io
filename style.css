@@ -42,8 +42,13 @@ html {
 .navbar ul li a:hover {
   border-bottom: 2px solid turquoise;
 }
+
 .navbar ul li a:active {
   border-bottom: 2px solid turquoise;
+}
+.navDisplay {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Home Section */
