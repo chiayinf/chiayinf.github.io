@@ -1,40 +1,131 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Chia-Yin Fan</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-      </head>
-  
-  <body>
-    <div class="wrapper">
-      
-      <div class="left">
-        <img class="profile-picture" src="https://media-exp1.licdn.com/dms/image/C4D03AQHX_Ga-p5mHOQ/profile-displayphoto-shrink_400_400/0/1556347283023?e=1638403200&v=beta&t=yFMxXu6Zc2o6VEkiT4p1x5ik1uhH8VyGeg58tAI8o34" width="200"/>
-        <h1 class="name">Chia-Yin</h1>
-        <h4 class="subtitle">CS Student</h4>
-      </div>
-      
-      <div class="right">
-        <p class="bio">
-            MS Computer Science @ Northeastern University - Seattle 
-        </p>
-        <p class="bio">
-            Actively seeking Software Engineer Intern/Co-op opportunities
-        </p>
-        <p class="bio">
-          Thanks for visiting my website.
-        </p>
-        <ul class="social-links">
-          <li><a href="https://github.com/chiayinf">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/chiayinfan/">LinkedIn</a></li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia-Yin's personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="phone.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Chia-Yin Fan</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio">Photos</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
-        <ul class="social-links">
-            <li><a href="https://github.com/chiayinf/MarioGame">Mario Game</a></li>
-            <li><a href="https://github.com/chiayinf/Weather-App">Weather App</a></li>
-          </ul>
-      </div>
-      
-    </div>
-  </body>
+    </nav>
+
+    <section id="home">
+        <h1 class="heading">HI, I AM</h1>
+        <h1 class="heading">Chia-Yin Fan</h1>
+        <br><br>
+        <p>AND THIS IS MY RESUME</p>
+    </section>
+
+    <section id="about">
+        <h1 class="heading">About me</h1>
+        <div class="about">
+            <img src="bg.jpg" alt="My Pic">
+            <div class="name">
+                <h2>I'm Chia-Yin</h2>
+                <p>I am currently a M.S. candidate in Computer Science at Northeastern University.
+
+                    I am a full stack developer. In my CS journey, I have programmed in Java, JavaScript, C & Python. I have also worked in web frameworks, such as React, Spring Boot, Express etc.
+                    
+                    I am a fast learner who likes to learn new skills and technologies and am able to quickly adapt to changing environments.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h1 class="heading">Education</h1>
+        <div class="columns">
+            <div class="box">
+                <h2>Northeastern University</h2>
+                <p>Candidate for a Master of Science in Computer Science</p>
+                <p>GPA: 3.92/4.00</p>
+                <p>Coursework: Object-Oriented Design, Discrete Math, Data Structures & Algorithms, Web Development, Database
+                    Management</p>
+            </div>
+            <div class="box">
+                <h2>National Taiwan Normal University</h2>
+                <p>Bachelor of Science in Chemistry, GPA: 3.54/4.0</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="heading">Projects</h1>
+            <div class="project">
+                
+                <div class="title">
+                    <img src="mountain.jpg" alt="Mountain Pic">
+                    <h2><a href="https://github.com/chiayinf/MarioGame">Super Mario Game</a></h2>
+                        <ul>
+                            <li>Designed a 2D super Mario game using JAVA and LibGDX framework</li>
+                            <li>Created characters that could interact and react to each other to have corresponding effects </li>
+                            <li>Supported background music and sound effects when playing</li>
+                            <li>Set different criteria for characters to meet to shift to different play screens such as end game, new high score, and a new level </li>
+                        </ul>
+                        &nbsp;
+                        <h2><a href="https://github.com/chiayinf/SnackGame">Snake Game</a></h2>
+                        <ul>
+                            <li>Developed a snake game with an MVC design pattern and implemented the object-oriented design in Java </li>
+                            <li>Designed a random pattern to generate the apple at random locations for the snake to eat and get longer</li>
+                            <li>Constructed a beginner mode which allowed the player to place the apple in the desired position</li>
+                            <li>Supported game record function and re-play according to the game log</li>
+                        </ul>
+                        &nbsp;
+                        <h2><a href="https://github.com/chiayinf/Weather-App">Weather App</a></h2>
+
+                        <ul>
+                            <li>Designed a React application to display real-time weather at assigned locations and allowed users to search the temperature, humidity, and conditions of desired cities</li>
+                            <li>Fetched data on a weather API from open weather map</li>
+                            <li>Used JavaScript, HTML, CSS, and Bootstrap to implement the front-end design </li>
+                        </ul>
+                        &nbsp;
+                        <h2><a href="https://github.com/chiayinf/MastermindGame">Mastermind Game</a></h2>
+                        <ul>
+                            <li>Developed a Python application which creates a 2D canvas to visualize the user’s movement using Python Turtle library that supported operations such as re-play by tracing the game log to undo movement and synchronize leaderboard history</li>                    
+                            <li>Designed a display screen for rendering animation according to input data </li>
+                        </ul>
+                </div>
+                
+            </div>
+            
+    </section>
+    <section id="portfolio">
+        <h1 class="heading">Photos</h1>
+        <h2>I'm Chia-Yin</h2>
+        <div class="gallery">
+            <img src="pic1.jpg" alt="">
+            <img src="pic2.jpg" alt="">
+            <img src="pic3.jpg" alt="">
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h1 class="heading">Get in Touch</h1>
+        <div class="columnsContact">
+            <div class="boxContact">
+                <h2><a href="mailto: fan.chi@northeastern.edu">Email: fan.chi@northeastern.edu</a></h2>
+                &nbsp;
+                <h2><a href="https://github.com/chiayinf"><img src=github.jpg width=80 height=80></a>
+                &nbsp; <a href="https://www.linkedin.com/in/chiayinfan/"><img src=https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png width=80 height=80></a></h2>
+            </div>
+            
+        </div>
+    </section>
+
+    
+</body>
 </html>
