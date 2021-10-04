@@ -1,0 +1,12 @@
+1. What was the most challenging piece of this assignment?  Did you find it easy or challenging to work with HTML and CSS?  How long did this overall assignment take you?
+> Navgation bar is the most challenging part. I check lots of syntax online but not all of them work. I think this work is challenging cause I'm not allowed to use js and other frameworks. So when I want to adjust anything I need to search it.
+2. What decisions did you make when you made your site mobile friendly?
+> The webpages would adjust the border and boxes to fit the mobile.
+3. What did you take into account when you developed the design of your website?  Is there anything that you’re particularly proud of?
+> Titles are clear, paragraph are easy to read. I create a hover function on nav. And the icon in the buttom that connect to linkedin and github.
+4. Given more time or resources, what additional features would you add to your site in the future? 
+> A board shows all of my technical skills
+> Add some gifs, makes the website looks no-static
+> Add a download buttom so people could directly download my resume
+5. How many hours did you spend on this assignment?
+> First I spent like 10 hours to find the templates I like and also 10 hours to modifiy it to fit the requirements. Also spent some time to figure how nav works.
