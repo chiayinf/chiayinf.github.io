@@ -1,3 +1,7 @@
+A link to your website: https://chiayinf.github.io/
+A link to your Github repo: https://github.com/chiayinf
+
+
 1. What was the most challenging piece of this assignment?  Did you find it easy or challenging to work with HTML and CSS?  How long did this overall assignment take you?
 > Navgation bar is the most challenging part. I check lots of syntax online but not all of them work. I think this work is challenging cause I'm not allowed to use js and other frameworks. So when I want to adjust anything I need to search it.
 2. What decisions did you make when you made your site mobile friendly?
