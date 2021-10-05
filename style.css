@@ -40,10 +40,12 @@ html {
   color: white;
 }
 .navbar ul li a:hover {
-  border-bottom: 2px solid turquoise;
+  border-bottom: 2px solid black;
 }
-.navbar ul li a:active {
-  border-bottom: 2px solid turquoise;
+
+#currentPage {
+  color: rgb(103, 201, 247);
+  font-weight: bold;
 }
 
 /* Home Section */
@@ -89,7 +91,6 @@ html {
   grid-template-columns:
     "auto"
     "auto";
-  padding-left: 50px;
   justify-content: center;
 }
 .box {
@@ -168,7 +169,6 @@ html {
 }
 .title {
   padding: 50px;
-  padding-right: 150px;
 }
 .title h2 {
   font-size: 2rem;
